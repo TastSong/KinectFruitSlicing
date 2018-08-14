@@ -5,9 +5,9 @@ KinectFruitSlicing
 ------------------------
 这是一个基于Kinect的切水果游戏<br>
 进入游戏首页的时候需要用户举右手进行注册<br>
-![](https://github.com/TastSong/KinectFruitSlicing/blob/master/KinectFruitSlicing/%E6%95%88%E6%9E%9C%E5%9B%BE/0.jpg) 
+![](https://github.com/TastSong/KinectFruitSlicing/blob/master/KinectFruitSlicing/%E6%95%88%E6%9E%9C%E5%9B%BE/0.jpg) <br>
 游戏页面<br>
-![](https://github.com/TastSong/KinectFruitSlicing/blob/master/KinectFruitSlicing/%E6%95%88%E6%9E%9C%E5%9B%BE/1.jpg) 
+![](https://github.com/TastSong/KinectFruitSlicing/blob/master/KinectFruitSlicing/%E6%95%88%E6%9E%9C%E5%9B%BE/1.jpg) <br>
 
 环境配置
 ------------------------
