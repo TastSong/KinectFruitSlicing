@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectFruitSlicing", "Assembly-CSharp-firstpass.csproj", "{9B3B6445-223F-4EE5-7719-6F7262AE98BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{9B3B6445-223F-4EE5-7719-6F7262AE98BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectFruitSlicing", "Assembly-CSharp.csproj", "{A0461B8A-EE0F-23D0-95D5-63E070223C56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A0461B8A-EE0F-23D0-95D5-63E070223C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectFruitSlicing", "Assembly-CSharp-Editor-firstpass.csproj", "{C59966C6-F75C-EC8D-7563-BA411DCA7F61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{C59966C6-F75C-EC8D-7563-BA411DCA7F61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

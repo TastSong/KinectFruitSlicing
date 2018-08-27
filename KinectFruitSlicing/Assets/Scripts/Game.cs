@@ -32,9 +32,11 @@ public class Game : MonoBehaviour {
     //计时器
     public Text gameTimeText;
     private int gameTime = 0;
+    public int gameOverTime = 30;
     private float floatTime = 0;//用于方法一：用来递增delatime的1秒 
     //游戏结束画面
     public Image gameOverImag;
+    private bool cleanFiuit = true;
 	// Use this for initialization
 	void Start () {
         CreateNewFruit();
@@ -44,7 +46,7 @@ public class Game : MonoBehaviour {
    
         //开始游戏计时
         GameTimer();        
-        if(this.gameTime < 30)
+        if(this.gameTime < this.gameOverTime)
         {
             gameTimeText.text = this.gameTime.ToString() + "秒";
             //得到左右手的屏幕位置
@@ -66,7 +68,13 @@ public class Game : MonoBehaviour {
         }
         else
         {
-            gameTimeText.text = "30秒";
+            //清除屏幕上的水果，防止遮盖game over的图片
+            if (cleanFiuit)
+            {
+                Destroy(newFruit.gameObject);
+                cleanFiuit = false;
+            }
+            gameTimeText.text = this.gameOverTime.ToString() + "秒";
             gameOverImag.gameObject.SetActive(true);
             Time.timeScale = 0;
         }
